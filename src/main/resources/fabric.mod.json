@@ -17,7 +17,7 @@
       "net.purple_network.simple_chest_dropper.client.SimpleChestDropperClient"
     ],
     "main": [
-      "net.purple_network.simple_chest_dropper.Simple_chest_dropper"
+      "net.purple_network.simple_chest_dropper.SimpleChestDropper"
     ]
   },
   "mixins": [
@@ -30,6 +30,6 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": ">=1.21 <26.2"
   }
 }
