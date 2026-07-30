@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_chest_dropper",
+  "version": "${version}",
+  "name": "Simple chest dropper",
+  "description": "HyprNova is a mod who radically change the aspect of survival mode in minecraft",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/simple_chest_dropper/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.purple_network.simple_chest_dropper.client.SimpleChestDropperDataGenerator"
+    ],
+    "client": [
+      "net.purple_network.simple_chest_dropper.client.SimpleChestDropperClient"
+    ],
+    "main": [
+      "net.purple_network.simple_chest_dropper.Simple_chest_dropper"
+    ]
+  },
+  "mixins": [
+    "simple_chest_dropper.mixins.json",
+    {
+      "config": "simple_chest_dropper.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
