@@ -1,3 +1,6 @@
 {
-  "key.scd.drop_inventory": "Drop Inventory"
+  "key.ecd.drop_inventory": "Drop Inventory",
+
+  "msg.ecd.disable_inventory": "Drop on player inventory is now set to ",
+  "msg.ecd.close_inventory": "Closing Inventory on drop is now set to "
 }

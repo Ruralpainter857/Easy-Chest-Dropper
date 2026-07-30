@@ -1,0 +1,6 @@
+{
+  "key.ecd.drop_inventory": "Dropper l'inventaire",
+
+  "msg.ecd.disable_inventory": "Le drop des objets dans l'inventaire du joueur est maintenant défini sur ",
+  "msg.ecd.close_inventory": "La fermeture de l'inventaire au drop est maintenant défini sur "
+}

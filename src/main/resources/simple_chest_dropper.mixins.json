@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.purple_network.simple_chest_dropper.mixin",
+  "package": "net.purple_network.easy_chest_dropper.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
   ],
