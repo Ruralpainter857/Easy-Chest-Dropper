@@ -6,7 +6,7 @@
   "description": "HyprNova is a mod who radically change the aspect of survival mode in minecraft",
   "authors": [],
   "contact": {},
-  "license": "All-Rights-Reserved",
+  "license": "MIT license",
   "icon": "assets/simple_chest_dropper/icon.png",
   "environment": "client",
   "entrypoints": {
