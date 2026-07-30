@@ -1,4 +1,4 @@
-package net.purple_network.simple_chest_dropper;
+package net.purple_network.easy_chest_dropper;
 
 import net.fabricmc.api.ModInitializer;
 

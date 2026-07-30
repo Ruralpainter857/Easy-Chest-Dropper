@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "simple_chest_dropper",
+  "id": "easy_chest_dropper",
   "version": "${version}",
   "name": "Simple chest dropper",
   "description": "Simple Chest Dropper allows you to drop the whole container in front of you by the press of a keybind",
@@ -11,13 +11,13 @@
   "environment": "client",
   "entrypoints": {
     "fabric-datagen": [
-      "net.purple_network.simple_chest_dropper.client.SimpleChestDropperDataGenerator"
+      "net.purple_network.easy_chest_dropper.client.SimpleChestDropperDataGenerator"
     ],
     "client": [
-      "net.purple_network.simple_chest_dropper.client.SimpleChestDropperClient"
+      "net.purple_network.easy_chest_dropper.client.EasyChestDropperClient"
     ],
     "main": [
-      "net.purple_network.simple_chest_dropper.SimpleChestDropper"
+      "net.purple_network.easy_chest_dropper.SimpleChestDropper"
     ]
   },
   "mixins": [

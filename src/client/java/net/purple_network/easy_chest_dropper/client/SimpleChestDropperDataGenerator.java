@@ -1,4 +1,4 @@
-package net.purple_network.simple_chest_dropper.client;
+package net.purple_network.easy_chest_dropper.client;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
