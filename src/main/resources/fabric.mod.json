@@ -3,7 +3,7 @@
   "id": "simple_chest_dropper",
   "version": "${version}",
   "name": "Simple chest dropper",
-  "description": "HyprNova is a mod who radically change the aspect of survival mode in minecraft",
+  "description": "Simple Chest Dropper allows you to drop the whole container in front of you by the press of a keybind",
   "authors": [],
   "contact": {},
   "license": "MIT license",
@@ -30,6 +30,6 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
-    "minecraft": ">=1.21 <26.2"
+    "minecraft": "${minecraft_version}"
   }
 }
