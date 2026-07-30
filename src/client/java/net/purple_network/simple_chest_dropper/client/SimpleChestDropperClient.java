@@ -27,11 +27,11 @@ public class SimpleChestDropperClient implements ClientModInitializer {
                         var handle = handledScreen.getScreenHandler();
                         handle.slots.forEach(slot -> {
                             assert client.interactionManager != null;
-                            client.interactionManager.clickSlot( // It simulate a drop action from the player
+                            client.interactionManager.clickSlot( // It simulates a drop action from the player
                                     handle.syncId,
                                     slot.getIndex(),
                                     1,
-                                    SlotActionType.THROW,
+                                    SlotActionType.THROW, // Drop
                                     client.player
                             );
                         });
